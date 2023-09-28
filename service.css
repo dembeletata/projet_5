@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+section{
+    padding: 50px;
+}
+.section1{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 100px;
+
+}
+.section1 > div > img{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.section1 > img{
+    width: 700px;
+    padding: 50px;
+    border-radius: 60px;
+
+}
+.section1 > h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
